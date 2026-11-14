@@ -29,8 +29,24 @@
   margin-left: 120px;
 }
 
+.footer-form {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 83px;
+  width: 453px;
+  height: 80px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .footer .social-list {
   gap: 16px;
+}
+
+.footer .social-list .social-link:hover,
+.footer .social-list .social-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-social-title {
@@ -40,9 +56,4 @@
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
-
-.footer .social-list .social-link:hover,
-.footer .social-list .social-link:focus {
-  background-color: #31d0aa;
 }
