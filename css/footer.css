@@ -67,7 +67,7 @@
 .footer-form {
   display: flex;
   justify-content: space-between;
-  gap: 16px;
+  gap: 24px;
   width: 453px;
   height: 40px;
 
@@ -87,7 +87,7 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: border-color;
 }
 
@@ -108,20 +108,18 @@
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
-
   height: 40px;
-  flex-direction: row-reverse;
   color: #fff;
   background-color: #4d5ae5;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: background-color;
 }
 
-.button-form:hover {
+.button-form:hover,
+.button-form:focus {
   background-color: #31d0aa;
 }
 
 .button-icon {
-  fill: none;
-  color: #fff;
+  fill: #fff;
 }

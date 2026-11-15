@@ -12,7 +12,7 @@
   visibility: hidden;
   pointer-events: none;
 
-  transition: 300ms ease-out 300ms;
+  transition: 250ms ease-out 250ms;
   transition-property: opacity, visibility;
 }
 
@@ -43,7 +43,7 @@
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
 
-  transition: 300ms ease-out 0ms;
+  transition: 250ms ease-out 0ms;
   transition-property: transform, opacity;
 }
 
@@ -51,7 +51,7 @@
   transform: translateX(-50%) translateY(-50%);
   opacity: 1;
 
-  transition-delay: 300ms;
+  transition-delay: 250ms;
 }
 
 .btn-field:hover,
@@ -77,12 +77,12 @@
   width: 24px;
   height: 24px;
   background-color: #e7e9fc;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: background-color;
 }
 .modal-btn-icon {
   color: #2e2f42;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: color;
 }
 
@@ -138,7 +138,7 @@
 
   outline: transparent;
 
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: border-color;
 }
 
@@ -153,7 +153,7 @@
   transform: translateY(-50%);
   color: #2e2f42;
   pointer-events: none;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: color;
 }
 
@@ -177,7 +177,7 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
 
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: border-color;
 
   margin-bottom: 16px;
@@ -216,7 +216,7 @@
   border: 0.88px solid rgba(46, 47, 66, 0.4);
 
   cursor: pointer;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: border-color, background-color;
 }
 .checkbox:checked + .modal-form-policy > .modal-form-checkbox {
@@ -233,7 +233,7 @@
 .modal-form-checkbox-icon {
   color: #f4f4fd;
   opacity: 0;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: opacity;
 }
 
