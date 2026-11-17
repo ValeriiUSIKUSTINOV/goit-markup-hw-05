@@ -189,6 +189,10 @@
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-form-field > .modal-form-comment {
+  margin-bottom: 8px;
+}
+
 .modal-form-agreement {
   margin-bottom: 0px;
 }
