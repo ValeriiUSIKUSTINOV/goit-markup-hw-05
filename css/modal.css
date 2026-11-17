@@ -66,7 +66,6 @@
   right: 24px;
   padding: 0;
   background-color: transparent;
-  border: none;
 
   display: flex;
   align-items: center;
@@ -180,7 +179,7 @@
   transition: 250ms ease-out;
   transition-property: border-color;
 
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .modal-form-comment:focus {
@@ -192,7 +191,7 @@
 }
 
 .modal-form-agreement {
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 
 .modal-form-policy {
@@ -253,7 +252,7 @@
 
 .button-field {
   align-self: center;
-  margin-top: auto;
+  margin-top: 24px;
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
